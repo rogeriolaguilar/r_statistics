@@ -5,8 +5,9 @@
 # null hypothesis (H0): <= 12
 # alternative hypothesis (H1): > 12
 
-x <- c(12, 8, 15, 13, 10, 12, 14, 11, 12, 13, 15, 19, 15, 12, 13, 16, 15) # vetor de valores observados na amostra
-alternative <- c("greater") # "two.sided", "less", "greater"
+# vector of observed values
+x <- c(12, 8, 15, 13, 10, 12, 14, 11, 12, 13, 15, 19, 15, 12, 13, 16, 15)
+alternative <- c("greater") # possible values "two.sided", "less", "greater"
 mu <- 12 # hiposis value
 conf_level <- 0.95
 

@@ -1,3 +1,11 @@
+library(samplingbook)
+
+# Sample size for estimating a mean
+# e: margin of error
+# S: standard deviation
+# N: population size
+# level: confidence level
+
 S <- sqrt(0.1764)
 e <- 0.05
 N <- Inf
