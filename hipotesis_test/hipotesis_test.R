@@ -11,7 +11,8 @@ alternative <- c("greater") # possible values "two.sided", "less", "greater"
 mu <- 12 # hiposis value
 conf_level <- 0.95
 
-t.test(x, alternative = alternative, mu = mu, conf.level = conf_level)
+result <- t.test(x, alternative = alternative, mu = mu, conf.level = conf_level)
+print(result)
 
 # Example of results
 #         One Sample t-test
