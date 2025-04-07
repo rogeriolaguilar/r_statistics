@@ -1,0 +1,5 @@
+S <- sqrt(0.1764)
+e <- 0.05
+N <- Inf
+level <- 0.99
+sample.size.mean(e, S, N, level)

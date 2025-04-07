@@ -1,0 +1,16 @@
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# renv cache (don't ignore renv.lock or renv/activate.R)
+renv/library/
+renv/python/
+renv/staging/
+
+# RStudio project files (optional)
+*.Rproj
+
+# Other OS-generated files
+.DS_Store
+Thumbs.db
